@@ -62,6 +62,8 @@ public class Register extends javax.swing.JFrame {
         });
         jPanel1.add(chkRegiShowPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 240, -1, -1));
 
+        btnRegiRegister.setBackground(new java.awt.Color(0, 153, 153));
+        btnRegiRegister.setForeground(new java.awt.Color(255, 255, 255));
         btnRegiRegister.setText("Register");
         btnRegiRegister.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -79,6 +81,8 @@ public class Register extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 160, 88, -1));
         jPanel1.add(txtRegiUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 120, 127, -1));
 
+        btnBack.setBackground(new java.awt.Color(0, 153, 153));
+        btnBack.setForeground(new java.awt.Color(255, 255, 255));
         btnBack.setText("Back");
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,9 +97,11 @@ public class Register extends javax.swing.JFrame {
         jPanel1.add(txtRegiConPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 210, 127, -1));
         jPanel1.add(txtRegiPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 160, 127, -1));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jLabel1.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
         jLabel1.setText("User Registration ");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 266, 50));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 30, 266, 50));
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 740, -1));
 

@@ -39,6 +39,8 @@ public class LoginFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel1.setPreferredSize(new java.awt.Dimension(743, 363));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -51,21 +53,25 @@ public class LoginFrame extends javax.swing.JFrame {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 170, 88, -1));
         jPanel1.add(txtUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, 127, -1));
 
+        btnLogin.setBackground(new java.awt.Color(0, 153, 153));
+        btnLogin.setForeground(new java.awt.Color(255, 255, 255));
         btnLogin.setText("Login");
         btnLogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLoginActionPerformed(evt);
             }
         });
-        jPanel1.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 240, -1, -1));
+        jPanel1.add(btnLogin, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 260, -1, -1));
 
+        btnUserRegistrationForm.setBackground(new java.awt.Color(0, 153, 153));
+        btnUserRegistrationForm.setForeground(new java.awt.Color(255, 255, 255));
         btnUserRegistrationForm.setText("Register");
         btnUserRegistrationForm.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUserRegistrationFormActionPerformed(evt);
             }
         });
-        jPanel1.add(btnUserRegistrationForm, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 240, -1, -1));
+        jPanel1.add(btnUserRegistrationForm, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, -1, -1));
         jPanel1.add(txtPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 170, 127, -1));
 
         chkShowPassword.setFont(new java.awt.Font("Segoe UI", 0, 10)); // NOI18N
@@ -77,15 +83,16 @@ public class LoginFrame extends javax.swing.JFrame {
         });
         jPanel1.add(chkShowPassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 200, -1, -1));
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 30)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 30)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
         jLabel1.setText("Library management system");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 30, 422, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 40, 422, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 713, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
