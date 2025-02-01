@@ -261,7 +261,7 @@ public class AddMember extends javax.swing.JFrame {
           int status = pst.executeUpdate();
         
            if (status == 1) {
-            JOptionPane.showMessageDialog(rootPane, "Books save successfully.");
+            JOptionPane.showMessageDialog(rootPane, "Member add successfully.");
         }
 
       
@@ -287,7 +287,7 @@ public class AddMember extends javax.swing.JFrame {
         int status = pst.executeUpdate();
         
            if (status == 1) {
-            JOptionPane.showMessageDialog(rootPane, "Data Delete successfully");  }
+            JOptionPane.showMessageDialog(rootPane, "Member removed successfully");  }
            pst.close();
           }catch(Exception ee){JOptionPane.showMessageDialog(rootPane,"error" +ee.getMessage());}
       }

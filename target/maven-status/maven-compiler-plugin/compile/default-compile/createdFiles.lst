@@ -2,12 +2,13 @@ VIEW\AddBook$4.class
 VIEW\ReturnAndBorrowBook$4.class
 Model\DatabaseConnection.class
 VIEW\LoginFrame$2.class
+VIEW\ReturnAndBorrowBook$10.class
 VIEW\ReturnAndBorrowBook$9.class
 VIEW\AddBook$2.class
 VIEW\AddMember$5.class
 VIEW\DashBoard$2.class
 VIEW\JasperFileManager.class
-VIEW\DashBoard$5.class
+VIEW\AddBook$7.class
 VIEW\AddBook$6.class
 VIEW\Register$3.class
 VIEW\AddBook$1.class
